@@ -22,6 +22,12 @@ struct HomeView: View {
                     Image(systemName: "phone")
                     Text("Numbers")
                 }
+            
+            AnimatedContactList()
+                .tabItem {
+                    Image(systemName: "person")
+                    Text("Contacts")
+                }
         }
         
     }

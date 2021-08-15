@@ -17,6 +17,8 @@
 		846D3CA226C24F4000C603BC /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D3CA126C24F4000C603BC /* Person.swift */; };
 		846D3CA426C2507700C603BC /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D3CA326C2507700C603BC /* DataManager.swift */; };
 		846D3CA626C2E83100C603BC /* ContactDetailsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D3CA526C2E83100C603BC /* ContactDetailsInfo.swift */; };
+		84BCC3A026C82ED6002A20F8 /* AnimatedContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BCC39F26C82ED6002A20F8 /* AnimatedContactList.swift */; };
+		84BCC3A226C83279002A20F8 /* RowContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BCC3A126C83279002A20F8 /* RowContactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		846D3CA126C24F4000C603BC /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		846D3CA326C2507700C603BC /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		846D3CA526C2E83100C603BC /* ContactDetailsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsInfo.swift; sourceTree = "<group>"; };
+		84BCC39F26C82ED6002A20F8 /* AnimatedContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedContactList.swift; sourceTree = "<group>"; };
+		84BCC3A126C83279002A20F8 /* RowContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowContactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 				846D3C9C26C1CB6600C603BC /* ContactList.swift */,
 				846D3C9E26C1CBB700C603BC /* SectionsContactList.swift */,
 				846D3CA526C2E83100C603BC /* ContactDetailsInfo.swift */,
+				84BCC39F26C82ED6002A20F8 /* AnimatedContactList.swift */,
+				84BCC3A126C83279002A20F8 /* RowContactView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -190,11 +196,13 @@
 			files = (
 				846D3CA226C24F4000C603BC /* Person.swift in Sources */,
 				846D3CA626C2E83100C603BC /* ContactDetailsInfo.swift in Sources */,
+				84BCC3A226C83279002A20F8 /* RowContactView.swift in Sources */,
 				846D3C9D26C1CB6600C603BC /* ContactList.swift in Sources */,
 				846D3C8C26C1C6A600C603BC /* HomeView.swift in Sources */,
 				846D3CA426C2507700C603BC /* DataManager.swift in Sources */,
 				846D3C8A26C1C6A600C603BC /* ContactsSwiftUIApp.swift in Sources */,
 				846D3C9F26C1CBB700C603BC /* SectionsContactList.swift in Sources */,
+				84BCC3A026C82ED6002A20F8 /* AnimatedContactList.swift in Sources */,
 				846D3C9B26C1C92700C603BC /* RootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
